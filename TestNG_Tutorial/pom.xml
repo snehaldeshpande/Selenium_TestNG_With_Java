@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.edureka</groupId>
+  <artifactId>TestNG_Tutorial</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>TestNG_Tutorial</name>
+  <description>This project will contains testNG programs</description>
+   <dependencies>
+ <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+ </dependency>
+ <dependency>
+ 	<groupId>com.Infosys</groupId>
+ 	<artifactId>Selenium_Tutorials</artifactId>
+ 	<version>0.0.1-SNAPSHOT</version>
+ </dependency>
+   </dependencies>
+</project>

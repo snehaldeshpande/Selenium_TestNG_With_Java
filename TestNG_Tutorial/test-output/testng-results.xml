@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T11:57:13 IST" name="Default suite" finished-at="2024-07-11T11:57:13 IST" duration-ms="76">
+    <groups>
+      <group name="Bug">
+        <method signature="DefaultGroup.tc2()[pri:0, instance:Test.DefaultGroup@59fd97a8]" name="tc2" class="Test.DefaultGroup"/>
+      </group> <!-- Bug -->
+      <group name="Regression">
+        <method signature="DefaultGroup.tc1()[pri:0, instance:Test.DefaultGroup@59fd97a8]" name="tc1" class="Test.DefaultGroup"/>
+        <method signature="DefaultGroup.tc2()[pri:0, instance:Test.DefaultGroup@59fd97a8]" name="tc2" class="Test.DefaultGroup"/>
+        <method signature="DefaultGroup.tc3()[pri:0, instance:Test.DefaultGroup@59fd97a8]" name="tc3" class="Test.DefaultGroup"/>
+        <method signature="DefaultGroup.tc4()[pri:0, instance:Test.DefaultGroup@59fd97a8]" name="tc4" class="Test.DefaultGroup"/>
+        <method signature="DefaultGroup.tc5()[pri:0, instance:Test.DefaultGroup@59fd97a8]" name="tc5" class="Test.DefaultGroup"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="DefaultGroup.tc3()[pri:0, instance:Test.DefaultGroup@59fd97a8]" name="tc3" class="Test.DefaultGroup"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-07-11T11:57:13 IST" name="Default test" finished-at="2024-07-11T11:57:13 IST" duration-ms="76">
+      <class name="Test.DefaultGroup">
+        <test-method signature="tc1()[pri:0, instance:Test.DefaultGroup@59fd97a8]" started-at="2024-07-11T11:57:13 IST" name="tc1" finished-at="2024-07-11T11:57:13 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method signature="tc2()[pri:0, instance:Test.DefaultGroup@59fd97a8]" started-at="2024-07-11T11:57:13 IST" name="tc2" finished-at="2024-07-11T11:57:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:0, instance:Test.DefaultGroup@59fd97a8]" started-at="2024-07-11T11:57:13 IST" name="tc3" finished-at="2024-07-11T11:57:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method signature="tc4()[pri:0, instance:Test.DefaultGroup@59fd97a8]" started-at="2024-07-11T11:57:13 IST" name="tc4" finished-at="2024-07-11T11:57:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method signature="tc5()[pri:0, instance:Test.DefaultGroup@59fd97a8]" started-at="2024-07-11T11:57:13 IST" name="tc5" finished-at="2024-07-11T11:57:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+      </class> <!-- Test.DefaultGroup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
